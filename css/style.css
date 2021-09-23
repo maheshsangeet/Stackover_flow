@@ -1,0 +1,92 @@
+html {
+    font-size: 62.5%;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 100%;
+    
+}
+.navBar {
+    height: 8vh;
+    background-color: rgb(212, 216, 219);
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+}
+.logo {
+    width: 12%;
+    margin-right: 5rem;
+}
+
+input {
+    width: 50%;
+    padding: 1rem;
+    border-radius: 2px;
+    border: 1px solid rgb(133, 131, 131);
+    outline: none;
+}
+input:focus {
+    transition: box-shadow .2s ease ;
+    box-shadow:0 0 1px 1px rgba(81, 203, 238, 1);
+}
+::placeholder {
+    font-size: 1.7rem;
+}
+
+.searchBtn {
+    padding: 1rem;
+    outline: none;
+    width: 10rem;
+    border-radius: 2px;
+    border: none;
+    background-color: rgb(45, 145, 228);
+    margin-right: 20rem;
+    color: white;
+}
+.searchBtn:active {
+    transform: scale(.95);
+    transition: ease .2s;
+}
+.searchBtn:hover {
+    transition: ease .2s;
+    background-color: rgb(67, 157, 231);
+}
+.toggleBar {
+    width: 50px;
+    border-radius: 30px;
+    padding: .2rem;
+    margin-right: 8rem;
+    border:1px solid black;
+    
+}
+.toggleBarColor {
+    background-color: white;
+}
+.darkToggleBar {
+    background-color: black;
+}
+
+.round {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border:1px solid black;
+}
+.roundColor {
+    background-color: black;
+    transform: translateX(0);
+
+}
+.darkRound {
+    transform: translateX(23px);
+    transition: ease-in .4s;
+    background-color: white;
+}
+.darkTheme {
+    background-color: rgb(12, 12, 12);
+}
+
